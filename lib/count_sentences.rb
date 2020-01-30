@@ -31,7 +31,9 @@ class String
 
   def count_sentences
     current_string = self.split()
-    binding.pry
+    num_sentences = 0
+    
+    current_string.each do |word|
     
   end
 end
