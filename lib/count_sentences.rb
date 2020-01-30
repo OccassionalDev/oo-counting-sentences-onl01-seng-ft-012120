@@ -36,7 +36,9 @@ class String
     current_string.each do |word|
       if word.include?(".") || word.include?("!") || word.include?("?")
         num_sentences += 1
+      end 
     end 
     
+    return num_sentences
   end
 end
